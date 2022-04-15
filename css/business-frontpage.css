@@ -1,0 +1,113 @@
+body {
+  height: 100%;
+  margin: 0;
+  /* padding-top: 54px; */
+}
+/*
+fontes
+- Fjalla One
+- OSWALD
+- Bahianita
+- Londrina Solid
+- Unica One
+- Bebas Neue
+- Squada One
+- Fjalla One
+- teko
+- Amatic SC
+- Just Another Hand
+ */
+.navbar-brand {
+  font-family: 'Fjalla One';
+  font-size: 1.5em;
+}
+.navbar-dark .navbar-brand {
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: -1px 2px 2px #0a0a0afb;
+}
+
+.bg-alpha{
+  background-color: rgba(0,0,3,.8);
+}
+.business-header {
+  background: url('/img/front_hd600-40.jpg') center center no-repeat scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+@media (min-width: 768px) {
+  .business-header {
+    background: url('/img/frontD_hd800-40.jpg') center center no-repeat scroll;
+    width: 100%;
+  }
+}
+.card {
+  height: 100%;
+}
+section {
+  display: block;
+  height: 100%;
+}
+.bg-release {
+    background-color: #ad8257!important;
+}
+.page-section {
+    padding: 6rem 0;
+}
+.page-section .page-section-heading {
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+    color: #FFF;
+}
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: .25rem;
+    background-color: #FFF;
+    border-radius: 1rem;
+    border-color: #FFF!important;
+}
+.divider-custom.divider-light .divider-custom-icon {
+    color: #fff!important;
+}
+.divider-custom .divider-custom-icon {
+    color: #FFF!important;
+    font-size: 2rem;
+}
+.lead {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #453B08;
+    color: #fff;
+}
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailto-contato {
+  text-decoration: none;
+  color:#F8F2B7;
+}
