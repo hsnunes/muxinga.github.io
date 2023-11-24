@@ -1,0 +1,28 @@
+site_name: Grupo Muxinga
+
+nav:
+  - Home: "index.md"
+  - Sobre: "sobre.md"
+
+# Libera as marcações Extendidas da documentação MD
+markdown_extensions:
+  - pymdownx.tasklist # Lista de tarefas
+  - pymdownx.emoji # Emojis
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: amber
+      toggle:
+        icon: material/weather-night
+        name: Dark
+    - scheme: slate
+      primary: brown
+      toggle:
+        icon: material/weather-sunny
+        name: Light
